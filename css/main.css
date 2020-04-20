@@ -119,6 +119,8 @@ figure {
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -130,6 +132,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
 }
 
 h3,
@@ -278,7 +281,7 @@ footer .copyright {
     flex-flow: row wrap;
     background: url('../img/hero.jpg') center no-repeat #333;
     background-size: cover;
-    min-height: 600px;
+    min-height: 500px;
 }
 
 .hero-area h1 {
@@ -288,6 +291,8 @@ footer .copyright {
     font-weight: 500;
     line-height: 1.2;
 }
+
+/*Aside*/
 
 aside {
     display: flex;
@@ -566,7 +571,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 22%;
   }
 
   header nav ul {
@@ -672,7 +677,7 @@ input[type=button] {
   }
 
   footer p {
-    line-height: 1.285;
+    line-height: 1.5em;
   }
 
   footer .social-icons {
@@ -741,6 +746,10 @@ input[type=button] {
     padding: 15px 0;
   }
 
+  header nav {
+    width: 20%;
+  }
+
   h2 {
     font-size: 2.25em;
   }
@@ -756,10 +765,6 @@ input[type=button] {
   }
 
   /*Hero Area*/
-
-  .hero-area {
-    min-height: 775px;
-  }
 
   .hero-area h1 {
     width: 80%;
