@@ -138,7 +138,7 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
@@ -177,6 +177,10 @@ header .content-wrapper {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+}
+
+figure .logo {
+  width: 68%;
 }
 
 .header-divider {
@@ -252,6 +256,8 @@ footer .copyright {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background: url('../img/hero.jpg') center no-repeat #333;
+    background-size: cover;
 }
 
 .hero-area h1 {
